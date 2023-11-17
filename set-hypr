@@ -82,7 +82,6 @@ custom_stage=(
 	bat
 	bat-extras
 	chezmoi
-	deadd-notification-center
 	eza
 	featherpad
 	ffmpeg
@@ -110,6 +109,8 @@ custom_stage=(
 	zathura
 	zoom
 )
+# Add at some point if it works
+# deadd-notification-center
 
 for str in ${myArray[@]}; do
 	echo $str
